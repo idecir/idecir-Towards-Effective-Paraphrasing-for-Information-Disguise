@@ -1,0 +1,24 @@
+__pycache__/
+!__pycache__/
+*.pyc
+
+# data
+data/*
+# faiss_indexes/*
+queries_dict/*
+# sql_lite_dbs/*
+external_repos/*
+results_and_stats/*
+
+# code/beam_search_code/counter-fitted-vectors.txt
+
+
+code/beam_search_code/tmp/
+# code/faiss_indexes/*.faiss
+# code/faiss_indexes/*.json
+# code/sql_lite_dbs/*.db
+code/tmp
+output_beam/*
+code/beam_search_code/tmp
+code/beam_search_code/logs/
+code/beam_search_code/core
