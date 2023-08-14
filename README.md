@@ -1,5 +1,19 @@
 # Towards Effective Paraphrasing for Information Disguise
-This repository contains the code for our **ECIR 2023 accepted paper: `Towards Effective Paraphrasing for Information Disguise`.**
+<p align="center">
+| <a href="https://link.springer.com/chapter/10.1007/978-3-031-28238-6_22"><b>Paper</b></a> | <a href="https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/pubs/ecir_Poster.pdf"><b>Poster</b></a> | <a href="https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/pubs/PPT_ECIR_Anmol_Shrey.pdf"><b>Slides</b></a> |
+
+</p>
+
+This repository contains the code for our **ECIR 2023 accepted work: `Towards Effective Paraphrasing for Information Disguise`.**
+
+If you face any issues, you can contact the author(s) at `anmolagarwal4453@gmail.com`. 
+
+## Table of contents
+
+- [Repository File Structure](#repository-structure)
+- [Requirements](#requirements)
+- [Attack Parameters](#attack-parameters-which-can-be-modifiedpassed-to-class-beamsearch-in-beam_utilspy)
+- [Citation](#citation)
 
 ### Repository structure:
 * `code/beam_search_code/Disguise Text.ipynb` : Shows the disguise of a true sentence (query) via our model
@@ -90,3 +104,23 @@ We use Haystack's DPR implementation.
    </td>
   </tr>
 </table>
+
+### Citation
+The work can be cited as:
+
+```bibtex
+@inproceedings{10.1007/978-3-031-28238-6_22,
+author = {Agarwal, Anmol and Gupta, Shrey and Bonagiri, Vamshi and Gaur, Manas and Reagle, Joseph and Kumaraguru, Ponnurangam},
+title = {Towards Effective Paraphrasing For Information Disguise},
+year = {2023},
+isbn = {978-3-031-28237-9},
+publisher="Springer Nature Switzerland",
+address="Cham",
+url = {https://doi.org/10.1007/978-3-031-28238-6_22},
+doi = {10.1007/978-3-031-28238-6_22},
+booktitle = {Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland, April 2–6, 2023, Proceedings, Part II},
+pages = {331–340},
+keywords = {Neural information retrieval, Adversarial retrieval, Information disguise, Paraphrasing, Computational ethics},
+location = {Dublin, Ireland}
+}
+```
